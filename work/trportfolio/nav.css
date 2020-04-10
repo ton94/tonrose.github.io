@@ -1,0 +1,90 @@
+
+.navbar	{
+	height: 100px;
+        padding: 0;
+        margin-top:-65px;
+	margin-left:110px;
+	position: absolute; 
+	}
+
+ @media only screen and (max-width : 480px) {
+.navbar{z-index:999;}
+}
+
+.navbar li 	{
+			height: auto;
+			width: 150px;  
+			float: left;  
+			text-align: center; 
+			list-style: none;  
+			font:600 14pt 'Alegreya Sans', sans-serif; 
+			border-radius:10px;
+			padding:0;
+			margin: 0;
+			-moz-animation: fadeInDown .3s ease-in ;
+    			-webkit-animation: fadeInDown .3s ease-in ;
+ 			   animation:fadeInDown .3s ease-in ;
+                        }
+
+.navbar a	{							
+		padding: 5px 5px 5px 0px; 
+		text-decoration: none;  
+		color: white; 
+		display:block
+		}
+
+
+
+ .navbar li:hover, a:hover {} 
+
+
+.navbar li ul 	{
+		display: none;  
+		height: auto;									
+		margin-top:19px; 
+		padding: 0; 
+		border-radius:10px;		
+		}				
+
+.navbar li:hover ul 	{
+                        display: block; 
+                        }
+
+.navbar li ul li { } 
+
+.navbar li ul li a 	{
+		Color:#5f5669;
+		background:white;
+  		font-family: MyCustomFont, Verdana, Arial, sans-serif;
+                                           padding: 20px 20px 20px 20px;
+		border-radius:10px;
+		margin-bottom:5px
+		}
+
+ @media only screen and (max-width : 480px) {
+.navbar li ul li a {padding: 5px 5px 5px 5px;
+border-radius:5px;
+margin-bottom:5px
+Color:#5f5669;
+background:white;
+font-family: MyCustomFont, Verdana, Arial, sans-serif;
+font-size:10pt;
+width:130px;
+-moz-animation: fadeInLeft .3s ease-in ;
+    -webkit-animation: fadeInLeft .3s ease-in ;
+    animation:fadeInLeft .3s ease-in ;
+}
+}
+				
+.navbar li ul li a:hover{
+background:linear-gradient(#C00000, #580000);
+color:white;
+border-radius: 10px;
+background:#5f5669;
+box-shadow:0px 0px 5px black inset;
+ -webkit-transition: color .25s;
+  -moz-transition: color .25s;
+  -ms-transition: color .25s;
+  -o-transition: color .25s;
+  transition: color .25s;
+}

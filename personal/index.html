@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<title>TRfolio | Tonirose L.</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<script src="js/ccordion-menu.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<link rel="stylesheet" href="css/layout1.css">
+<link rel="stylesheet" href="css/trhome.css">
+<link rel="stylesheet" href="css/gallery.css">
+
+</head>
+
+
+<body>
+<div class="container">
+
+<div id="sidenav" class="controlall"><br><br>
+<a href="index.html" ><img id="lui" src="img/lui.png"></a><br>
+<a href="web.html"><img id="img2" src="img/web.png"></a><br>
+<a href="dgi.html"><img id="img2" src="img/dgi.png"></a><br>
+<a href="../index.html"><img id="img2" src="img/work.png"></a><br>
+<a href="https://tonie94.deviantart.com/"><img id="img2" src="img/deviantart.png"></a><br>
+<a href="https://www.behance.net/snsfbtoni077b"><img id="img2" src="img/behance.png"></a>
+
+</div>
+
+<div id="sidenav2" class="controlall">
+<ul>
+<a href="#" ><li>Home</li></a>
+<a href="#" ><li>Web</li></a>
+<a href="#" ><li>Digital</li></a>
+<a href="#" ><li>Work Section</li></a>
+<a href="#" ><li>DeviantArt</li></a>
+<a href="#" ><li>Behance</li></a>
+</ul>
+</div>
+
+
+
+<script>
+	$(window).scroll(function () {
+
+    /* Check the location of each desired element */
+    $('.fadeInBlock').each(function (i) {
+
+        var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+        var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+        /* If the object is completely visible in the window, fade it it */
+        if (bottom_of_window > bottom_of_object) {
+
+            $(this).animate({
+                'opacity': '1'
+            }, 500);
+
+         }
+     });
+});
+	</script>
+
+<div id="sidecontent" class="controlall animated fadeIn">
+
+<label  for="modal-1">
+<div class="toogle-menu" id="myBtn">
+<div class="icon"></div>
+<div class="icon"></div>
+<div class="icon"></div>
+</div></label>
+
+	
+	
+<input class="modal-state" id="modal-1" type="checkbox" />
+<div class="modal">
+<div class="contnt">
+<div class="menubox">
+<label class="modal__close" for="modal-1"></label>
+ <div id="mobinav">
+ <a href="index.html"><img id='logo'src="img/trfoliologo_fuschia.png"></a><br>
+ <a href="web.html"><button class="menumobile"><img src="img/web2.png"><br>Web</button></a>
+ &nbsp;&nbsp;
+<a href="dgi.html"><button class="menumobile"><img src="img/dgi2.png"><br><span>Digital</span></button></a>
+ &nbsp;
+ <a href="../index.html"><button class="menumobile"><img src="img/work2.png"><br><span>Work</span></button></a>
+ &nbsp;
+ <a href="https://tonie94.deviantart.com/"><button class="menumobile"><img src="img/deviantart2.png"><br><span>DeviantArt</span></button></a>
+ <a href="https://www.behance.net/snsfbtoni077b"><button class="menumobile"><img src="img/behance2.png"><br><span>Behance</span></button></a><br>
+ 
+</div>
+</div>
+</div>
+</div>
+
+
+
+<div class="fadeInBlock" >
+<div class="bannerholder">
+<br id="enter">
+<img src="img/logo.png" id="logo2">
+<img src="img/girlbg2.png" id="girl">
+</div>
+</div>
+<br><br>
+
+
+
+<br><br>
+
+ 
+</div>
+
+  
+
+
+ 
+
+
+
+</div>
+
+
+
+</body>
+</html>

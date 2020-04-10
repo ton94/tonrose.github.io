@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html>
+<title>TRfolio | Tonirose L. </title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="../css/animate.css">
+<link rel="icon" href="../favicon.ico" type="image/x-icon">
+<script src="../js/ccordion-menu.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<link href="../assets/owl-carousel/owl.carousel.css" rel="stylesheet">
+<link href="../assets/owl-carousel/owl.theme.css" rel="stylesheet">
+<script src="../owl-carousel/owl.carousel.js"></script>
+<link rel="stylesheet" href="../css/layout2.css">
+<link rel="stylesheet" href="../css/folio1-1.css">
+<link rel="stylesheet" href="../css/gallery.css">
+<link rel="stylesheet" href="../css/gallery3.css">
+<link rel="stylesheet" href="src/css/swipebox.css">
+
+<style type="text/css">
+    #wrap2 {
+      overflow: hidden;
+	  position: relative;
+    }
+    .box2 {
+      width: 50%;
+      padding-bottom: 50%;
+      color: #FFF;
+      position: relative;
+      float: left;
+    }
+	
+	
+	
+    .innerContent2 {
+      position: absolute;
+      left: 1px;
+      right: 1px;
+      top: 1px;
+      bottom: 1px;
+      background: none;
+      padding:50px;
+	  font-family:sollight;
+	  font-size:10pt;
+    }
+	
+	@media only screen and (max-width : 480px) {
+   /* Smartphone view: 1 tile */
+   .box2 {
+      width: 100%;
+      padding-bottom: 100%;
+	  margin: auto;
+   }
+}
+@media only screen and (max-width : 650px) and (min-width : 481px) {
+   /* Tablet view: 2 tiles */
+   .box2 {
+      width: 100%;
+      padding-bottom: 100%;
+   }
+}
+@media only screen and (max-width : 1050px) and (min-width : 651px) {
+   /* Small desktop / ipad view: 3 tiles */
+   .box2 {
+      width: 50%;
+      padding-bottom: 50%;
+   }
+}
+@media only screen and (max-width : 1290px) and (min-width : 1051px) {
+   /* Medium desktop: 4 tiles */
+   .box2 {
+      width: 50%;
+      padding-bottom: 50%;
+   }
+}
+  </style>
+
+</head>
+
+
+<body>
+<div class="container">
+
+<div id="sidenav" class="controlall"><br><br>
+<a href="../index.html" ><img id="lui" src="../img/lui.png"></a><br>
+<a href="../work.html"><img id="img2" src="../img/work.png"></a><br>
+<a href="../about.html"><img id="img2" src="../img/about.png"></a><br>
+<a href="../contact.html"><img id="img2" src="../img/contact.png"></a><br>
+<a href="../random/index.html"><img id="img2" src="../img/personal.png"></a><br>
+<a href="https://tonie94.deviantart.com/"><img id="img2" src="../img/deviantart.png"></a><br>
+<a href="https://www.behance.net/snsfbtoni077b"><img id="img2" src="../img/behance.png"></a>
+
+</div>
+
+<div id="sidenav2" class="controlall">
+<ul>
+<a href="#" ><li>Home</li></a>
+<a href="#" ><li>Work</li></a>
+<a href="#" ><li>About</li></a>
+<a href="#" ><li>Contact</li></a>
+<a href="#" ><li>Random</li></a>
+<a href="#" ><li>DeviantArt</li></a>
+<a href="#" ><li>Behance</li></a>
+</ul>
+</div>
+
+
+
+<script>
+	$(window).scroll(function () {
+
+    /* Check the location of each desired element */
+    $('.fadeInBlock').each(function (i) {
+
+        var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+        var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+        /* If the object is completely visible in the window, fade it it */
+        if (bottom_of_window > bottom_of_object) {
+
+            $(this).animate({
+                'opacity': '1'
+            }, 500);
+
+         }
+     });
+});
+	</script>
+
+<div id="sidecontent" class="controlall animated fadeIn">
+<div class="content animated fadeIn">
+<h1 class="controlh">Work</h1>&nbsp;&nbsp;&nbsp;<h2 class="controlh">Previous | Zion's Praise Music Inc.</h2>
+<div id="wrap2">
+    <div class="box2" onclick="location.href='#'">
+     <div class="innerContent2">
+        <img id="pic" src="../src_client/zpmi.png"><br>
+
+      </div>
+    </div>
+    <div class="box2" onclick="location.href='#'">
+      <div class="innerContent2">
+	  <h2>Company Background</h2>
+        A music education company in the Philippines who have been partnering with several schools nationwide to provide applied music programs for its students. Visit them (See the site)
+at <b>musicforall.ph</b>. I work there as an IT Assistant for 2 years.
+      <h2>What I did here:</h2>
+	  - Responsive Web Design / Front-End Dev.<br>
+	  - Graphics & Illustrations<br>
+	  - Video Editing & Flash Animation<br>
+	  - PC & Hardware Troubleshooting
+      </div>
+    </div>
+	
+	<BR><BR><BR>
+	
+	<div id="video">
+<video width="1190"  autoplay loop>
+  <source src="../src_client/folio1/website/webzpmi.mp4" type="video/mp4">
+  <source src="../src_client/folio1/website/webzpmi.ogg" type="video/ogg">
+Your browser does not support the video tag.
+</video>
+</div>
+	<br><br>
+    <div class="box2" onclick="location.href='#'">
+      <div class="innerContent2">
+        <img id="pic" src="../src_client/folio1/website/screenshots/mw.png" ><br>
+		 Note: Web layout & content in this site (live) is subject to change. Displayed here is the last update that I made for this site.
+
+	   
+      </div>
+    </div>
+    <div class="box2" onclick="location.href='#'">
+      <div class="innerContent2">
+       <h1>Web</h1><h2>Web design & Responsive development</h2>
+	   This is my 1st work in this field. I got this project when ZPMI hired me as their IT Assistant.
+	   They had a site before but they say it get hacked so I build a fresh new and more professional 
+	   responsive website for the company.<br><br>
+	   
+	   I was also involved in launching of the company's internal website but for students. Together 
+	   with the company's I.T. Consultant, we develop an online resource for students which contains
+	   audios, videos and more teaching resources in connection with the lessons from the book from the
+	   company's music program/course offered to their partner schools and it's students. <br><br>
+	   
+      </div>
+    </div>
+	
+	<br><br>
+	<div id="screenshots">
+	<div class="owl-carousel owl-theme">
+    <a href="../src_client/folio1/website/screenshots/careers.png" class="swipebox" title="Banner-type Layout (Career Page)"><div class="item" id="p1"></div></a>
+    <a href="../src_client/folio1/website/screenshots/media.png" class="swipebox" title="Carousel thumbnail for video gallery access (Media Page)"><div class="item" id="p2"></div></a>
+    <a href="../src_client/folio1/website/screenshots/pmcrecent.png" class="swipebox" title="PMC Page Recent Update, Long Scroll Full Width Layout with parallax"><div class="item" id="p3"></div></a>
+    <a href="../src_client/folio1/website/screenshots/spmc.png" class="swipebox" title="Long Scroll Full Width Layout (Summer PMC Page)"><div class="item" id="p4"></div></a>
+    <a href="../src_client/folio1/website/screenshots/image_gallery.png" class="swipebox" title="Home Page (Mobile)"><div class="item" id="p5"></div></a>
+    <a href="../src_client/folio1/website/screenshots/zpmiweb_current.png" class="swipebox" title="Home Page"><div class="item" id="p6"></div></a>
+	<a href="../src_client/folio1/website/screenshots/ork.png" class="swipebox" title="Inside Full Page Banner (Orkidstra Page)"><div class="item" id="p22"></div></a>
+    </div>
+	</div>
+	
+
+	
+		<script>
+	$('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:5
+        }
+    }
+})
+
+</script>
+
+<br><br><br>
+   
+  </div>
+  
+  <br><br><br>
+
+<div id="headernxt"><h1>Graphics & Illustrations</h1></div>
+<div id="content">
+<div id="wrap7">
+  <a href="../src_client/folio1/design/worthyalbum_1440px.jpg" class="swipebox" title="Worthy Album Design">
+    <div class="box7" id="worthy">
+      <div class="innerContent7">
+       
+      </div>
+    </div></a>
+	<a href="../src_client/folio1/design/books.png" class="swipebox" title="Cover of PMC Books which I made. Inside book sections falls under 'Illustration' Category">
+    <div class="box7" id="books" >
+      <div class="innerContent7">
+ 
+      </div>
+    </div></a>
+		<a href="../src_client/folio1/design/1.frontpage.jpg" class="swipebox" title="The Trumpet (ZPMI's yearly newsletter). This sample is the 1st edition.">
+    <div class="box7" id="trumpet" >
+      <div class="innerContent7">
+      
+      </div>
+    </div></a>
+	<a href="../src_client/folio1/design/logos.png" class="swipebox" title="Logos I made for ZPMI programs, recital themes and other property">
+    <div class="box7" id="logos" >
+      <div class="innerContent7">
+       
+      </div>
+    </div></a>
+	
+
+		<a href="../src_client/folio1/design/kaibigan_2.png" class="swipebox" title="Logos (continuation): Kaibigan (PMC Recital 2017)">
+    <div class="box7" id="kaibigan" >
+      <div class="innerContent7">
+       
+      </div>
+    </div></a>
+
+		<a href="../src_client/folio1/design/1up_2.png" class="swipebox" title="Logos (continuation): 1UP (PMC 1st National Grand Recital)">
+    <div class="box7" id="oneup" >
+      <div class="innerContent7">
+       
+      </div>
+    </div></a>
+
+  
+  </div>
+  
+  </div>
+  
+  
+  </div>
+</div>
+
+
+  
+
+ <div class="accord">
+ 
+   <button class="accordion">Quick Links <i class="down"></i></button>
+			<div class="panel" tabindex="0">
+			 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+			
+   <div id="text">
+   		 <div id="wrap">
+		 <img id='logo'src="../img/trfoliologo_fuschia.png"><br>
+    <div class="box" id="web">
+      <div class="innerContent">
+      <b>Web</b><br>
+	  Work | Zion's Praise Music Inc.<br>
+	  Random | Sample templates/mockups 
+	   
+	   </div>
+    </div>
+    <div class="box" id="zpmiweb" >
+      <div class="innerContent">
+      <b> Graphics</b><br>
+	  Work | Zion's Praise Music Inc.<br>
+	  Work | EGG Design Inc.<br>
+	  Work | Freelance<br>
+	  Random | Graphics/Photoshop
+      </div>
+    </div>
+    <div class="box" id="trfolioold" >
+      <div class="innerContent">
+      <b>Illustration</b><br>
+	  Work | Zion's Praise Music Inc.<br>
+	  Work | EGG Design Inc.<br>
+	  Work | Freelance<br>
+	  Random | Illustration/Digital Art 
+	  
+      </div>
+    </div>
+    <div class="box" id="exito">
+      <div class="innerContent">
+      <b>Latest Work/Random</b><br>
+	  Behance<br>
+	  DeviantArt<br>
+	   
+      </div>
+    </div>
+	
+  </div>
+   </div>
+   </div>   
+			</div>
+ 
+
+
+
+</div>
+
+ <script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        this.classList.toggle("active");
+        this.nextElementSibling.classList.toggle("show");
+  }
+}
+</script>
+
+<script src="src/js/jquery.swipebox.js"></script>
+	<script type="text/javascript">
+	$( document ).ready(function() {
+
+			/* Basic Gallery */
+			$( '.swipebox' ).swipebox();
+			
+			/* Video */
+			$( '.swipebox-video' ).swipebox();
+
+			
+
+      });
+	</script>
+
+
+</div>
+</body>
+</html>

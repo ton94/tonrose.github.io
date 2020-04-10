@@ -1,0 +1,758 @@
+ @font-face {
+  font-family: sm;
+  src: url("Verona Lotte Script.otf") /* TTF file for CSS3 browsers */
+  }
+  @font-face {
+  font-family: cocoheavy;
+  src: url("CocoGothic-Fat_trial.ttf") /* TTF file for CSS3 browsers */
+  }
+   @font-face {
+  font-family: cocolight;
+  src: url("CocoGothic-Light_trial.ttf") /* TTF file for CSS3 browsers */
+  }
+  @font-face {
+  font-family: cocobold;
+  src: url("CocoGothic-Bold_trial.ttf") /* TTF file for CSS3 browsers */
+  }
+  @font-face {
+  font-family: coco;
+  src: url("CocoGothic_trial.ttf") /* TTF file for CSS3 browsers */
+  }
+  
+  @font-face {
+  font-family: rosa;
+  src: url("rosarina.otf") /* TTF file for CSS3 browsers */
+  }
+  
+  @font-face {
+  font-family: charlreg;
+  src: url("CharlevoixPro-Regular.otf") /* TTF file for CSS3 browsers */
+  }
+  @font-face {
+  font-family: charllight;
+  src: url("CharlevoixPro-Light.otf") /* TTF file for CSS3 browsers */
+  }
+  
+  @font-face {
+  font-family: charlblack;
+  src: url("CharlevoixPro-Black.otf") /* TTF file for CSS3 browsers */
+  }
+  
+   @font-face {
+  font-family: wingding;
+  src: url("wingding.ttf") /* TTF file for CSS3 browsers */
+  }
+  
+   @font-face {
+  font-family: wingding2;
+  src: url("WINGDNG2.TTF") /* TTF file for CSS3 browsers */
+  }
+  
+
+html, body{margin:0 auto; padding:0; background:#300067; overflow-x:hidden; }
+
+section{width:120%; padding-top:50px; padding-left:90px; padding-right:90px; margin:auto; display:inline-block; text-align:center;}
+
+a{text-decoration:none; background:transparent;}
+a:hover{font-family:cocobold; transition: 0.25s ease-in-out; mix-blend-mode:exclusion;}
+a:active{font-family:cocobold; transition: 0.25s ease-in-out; mix-blend-mode:exclusion;}
+
+
+#graphics{background:#05B284; position:relative; padding-bottom:50px; }
+#aboutclient3{background:#89023E; position:relative; padding-bottom:50px;}
+#aboutclient2{background:#DC143C; position:relative; padding-bottom:50px;}
+#designer{background:#340A7D; position:relative; padding-bottom:50px;}
+
+#content{padding-left:210px; padding-top:20px; padding-bottom:70px;}
+
+#head1,#head3,#head4,#head5, #head6{font-family:charlblack; font-size:6em; }
+#head2{font-family:rosa; font-size:2em; }
+.color{color:#ff5260;}
+.color2{color:#07e5cd;}
+.color3{color:#7424ff;}
+.color4{color:#ea036a;}
+#client{font-family:charlreg; }
+
+ 	
+#banner3{background:black; width:100%; display:inline-block; padding-top:50px; padding-left:10px; padding-right:15px; padding-bottom:80px;
+    vertical-align:middle; position:relative; z-index:1; text-align:center;}
+
+#skill{color:white; font-family:cocolight; font-size: 16pt;}	
+#dvalogo{width:20%; z-index:999;}
+
+#pic{width:100%;}
+
+#button3{background:none; border: 3px solid white; font-family: cocolight; padding:10px; color:#ffd87c; z-index:9999;}
+#button3:hover{text-decoration:none; mix-blend-mode:exclusion; border-radius:20px; transition: 0.25s ease-in-out; }
+#hm{display:none;}
+
+#navigate{position:fixed; z-index:1; padding-left:10px; padding-top:270px; color:#ffd87c; mix-blend-mode:exclusion; }
+
+.joy{margin-top:80px;}
+
+#navigate a[title]:hover:after {
+  content: attr(title);
+  background:none;
+  font-family:cocolight;
+  color:#ffd87c;
+  mix-blend-mode:exclusion;
+  }
+	
+	
+li{display:inline-block; padding-bottom:3px; }
+	
+body::-webkit-scrollbar {
+    width: 0.5em;
+	background:#880d0f;
+}
+ 
+body::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background:linear-gradient(#2c5842, #11bc8f);
+  outline: 1px solid slategrey;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #DC143C;
+    margin: auto;
+    padding: 20px;
+    width: 90%;
+	margin-top:-30px;
+}
+
+
+.toogle-menu{
+    position:fixed;
+    right:20px;
+    top:20px;
+    cursor:pointer;
+    padding: 3px;
+    color:gray;
+	opacity:1;
+	z-index:3;
+}
+
+	/* Style the buttons that are used to open and close the accordion panel */
+    button.accordion {
+    background:#DC143C;
+    color: white;
+	font-family:cocolight;
+	font-size:18pt;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+    button.accordion2 {
+    background:none;
+    color: #23c97e;
+	font-family:cocolight;
+	font-size:16pt;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion:hover {
+    background:#ffd87c;
+	color:blue;
+	mix-blend-mode:exclusion;
+}
+
+button.accordion.active{
+background:none;
+	color:#23c97e;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+}
+
+/* The "show" class is added to the accordion panel when the user clicks on one of the buttons. This will show the panel content */
+div.panel.show {
+    display: block !important;
+}
+
+div.panel {
+    padding: 0 5px;
+	width: 100%;
+	color:white;
+	font-size:12pt;
+	font-family:cocolight;
+	font-weight:400;
+    background: none;
+    max-height: 0;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+	text-align:center;
+}
+
+#text{padding:20px 20px 20px 20px;}
+
+#text a{text-decoration:none;}
+#text a:hover{font-family:cocobold;}
+
+#menulogo{width:10%; margin:auto; mix-blend-mode:exclusion; }
+
+div.panel.show {
+    opacity: 1;
+    max-height: 700px; /* Whatever you like, as long as its more than the height of the content (on all screen sizes) */
+}
+
+
+
+#close{
+    position:fixed;
+    right:20px;
+    top:20px;
+    cursor:pointer;
+    padding: 3px;
+    color:gray;
+	background: #DC143C;
+	opacity:1;
+	mix-blend-mode:normal;
+}
+
+
+
+#menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  position: fixed;
+
+  width: 100%;
+  height: 100%;
+  padding: 15px 25px;
+  margin: 0;
+
+  list-style: none;
+  background: rgba(255,255,255, 0);
+  z-index: 9999;
+
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  
+  
+
+  }
+
+#menu a {
+    display: block;
+    color: #fff;
+    padding: 15px 50px;
+	text-decoration:none;
+	font-family:coco;
+	text-align:left;
+	opacity:1;
+	
+}   
+
+
+
+
+
+
+.accordion p + div :not(.accordion2) {
+    height: 0;
+    overflow: hidden;
+    -webkit-transition: height 0.3s ease-in;
+    -moz-transition: height 0.3s ease-in;
+    -o-transition: height 0.3s ease-in;
+    -ms-transition: height 0.3s ease-in;
+    transition: height 0.3s ease-in;
+}
+.accordion :target p + div :not(.subsub) {
+    height:auto;
+}
+.accordion .section.large:target p + div :not(.accordion2) {
+    overflow: auto;
+}
+.section p {
+    color:#FFFfff;
+    text-align:left;
+    min-width:200px;
+    font-size:12px;
+    font-size-adjust:inherit;
+    padding:0px;
+   border-bottom: 1px dashed rgba( 255, 255, 255, 0.05 ); 
+    margin:0px;
+    text-decoration:none;
+    text-transform:uppercase;
+    text-decoration:none;
+    color:#ffffff;
+	mix-blend-mode:exclusion;
+	
+}
+.section p a {
+    display:block;
+    text-align:left;
+    padding-right:10px;
+    padding-left:10px;
+    padding-top:3px;
+    padding-bottom:3px;
+    min-width:180px;
+	opacity:1;
+}
+.section p a:hover {
+    color:#DC143C;
+	mix-blend-mode:overlay;
+}
+/* ---------- SubSection ---------- */
+ .accordion2 p + div {
+    height: 0;
+    overflow: hidden;
+    -webkit-transition: height 0.3s ease-in;
+    -moz-transition: height 0.3s ease-in;
+    -o-transition: height 0.3s ease-in;
+    -ms-transition: height 0.3s ease-in;
+    transition: height 0.3s ease-in;
+}
+.accordion2 :target p + div {
+    height:auto;
+}
+.accordion2 .subsection.large:target p + div {
+    overflow: auto;
+}
+.subsection p {
+    color:#FFFfff;
+    text-align:left;
+    min-width:200px;
+    font-size:12px;
+    font-size-adjust:inherit;
+    padding:0px;
+    margin:0px;
+    border-bottom: 1px dashed rgba( 255, 255, 255, 0.05 );
+    text-decoration:none;
+    text-transform:uppercase;
+    text-decoration:none;
+    color:#ffffff;
+	background-color:#e26d42;
+	mix-blend-mode:overlay;
+}
+.subsection p a {
+    display:block;
+    text-align:left;
+    padding-right:10px;
+    padding-left:10px;
+    padding-top:3px;
+    padding-bottom:3px;
+    min-width:180px;
+	background-color:#e26d42;
+	opacity:1;
+}
+.subsection p a:hover {
+    color:#DC143C;
+	opacity:1;
+	mix-blend-mode:overlay;
+}
+
+
+
+
+.animate {
+    transform: translateX(-1400px);
+    -webkit-transform: translateX(-1400px);
+}
+
+.icon {
+    width: 30px;
+    height: 2px;
+    background-color: white;
+    margin: 6px 0;
+}
+
+section{width:100%;}
+.content{width:100%;}
+
+
+span {
+  border-right: .05em solid;
+  animation: caret 1s steps(1) infinite;
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes caret {
+  50% {
+    border-color: transparent;
+  }
+}
+
+ #wrap {
+      overflow: visible;
+    }
+    .box {
+      width: 50%;
+      padding-bottom: 47%;
+      color: #FFF;
+      position: relative;
+      float: left;
+	  overflow: visible;
+    }
+	
+	 .box2 {
+      width: 10%;
+      padding-bottom: 10%;
+      color: #FFF;
+      position: relative;
+      float: left;
+	  
+    }
+	
+    .innerContent {
+      position: absolute;
+      left: 10px;
+      right: 10px;
+      top: 5px;
+      bottom: 5px;
+      background: none;
+      color:#ff5260;
+	 
+    }
+	
+	
+	.innerContent_A {
+      position: absolute;
+      left: 1px;
+      right: 1px;
+      top: 1px;
+      bottom: 1px;
+      background: none;
+      padding-left:30px;
+	  padding-right:20px;
+	  color:#07e5cd;
+	  font-family:charllight;
+	   overflow: visible;
+    }
+	
+	h3{font-family:charlreg;}
+
+#webh2{font-family:charlblack;}
+
+#enter{display:none;}
+
+#gallery{margin-top:-20px; margin-left:-20px;}
+video{width:100%; margin-top:30px;}
+
+.boxgallery img{padding-bottom:3px;}
+
+/*----------------------------------------------*/
+
+@media only screen and (max-width : 480px){
+
+html, body{margin:0 auto; padding:0; background:#300067 ; background-size:cover;  overflow-x:hidden; }	
+
+#banner{background:url('gemini1.png') right ; background-size:cover; width:100%; height:700px; display:inline-block;
+    vertical-align:middle; position:relative;}
+
+#banner2{background:linear-gradient(#7b052a,#ff005a); background-size:cover; width:100%; padding-bottom:120px; display:inline-block;
+    vertical-align:middle; position:relative;}
+
+.headings{margin-left:15px;}
+#tr{font-family:cocolight; font-size:14pt; letter-spacing: 8px; mix-blend-mode:exclusion;  margin-left:105px; margin-top:300px; }
+#con2{font-family:cocobold; font-size:4em; color:#191970;}
+#con{color:#DC143C; mix-blend-mode:exclusion;font-size:5em;}
+#con:hover{color:#DC143C; mix-blend-mode:normal;}
+
+.modal-content {
+    background-color: #DC143C;
+    margin: auto;
+    padding: 20px;
+    width: 90%;
+	margin-top:-60px;
+}
+
+#text{padding:20px, 10px, 20px, 10px;}
+
+#menulogo{display:none;}
+
+#dvalogo{width:50%;}
+
+button3{background:none; border: 3px solid white; mix-blend-mode:exclusion; font-family: cocolight; padding:20px; color:#ffd87c; margin-top:50px; margin-left:10px; z-index:9999;}
+#button3:hover{text-decoration:none; mix-blend-mode:exclusion; border-radius:20px; transition: 0.25s ease-in-out; }
+
+ #hm{display:block;}
+ 
+
+ #graphics{padding:30px;}
+ #designer{padding:30px;}
+ #aboutclient2{padding:30px;}
+ #aboutclient3{padding:30px;}
+ 
+ #head3{font-family:charlblack; font-size:4em; }
+ #head4{font-family:charlblack; font-size:3em; }
+ #head5{font-family:charlblack; font-size:4em; }
+ #head6{ font-family:charlblack; font-size:3em; }
+ 
+ .box {
+      width: 100%;
+      color: #FFF;
+      position: relative;
+      float: left;
+	  overflow: visible;
+    }
+ 
+ .innerContent {
+      position: relative;
+      background: none;
+	  color:#07e5cd;
+	  font-family:charllight;
+	   overflow: visible;
+    }
+ 
+ .innerContent_A {
+      position: relative;
+      background: none;
+	  padding-left:30px;
+	  padding-right:30px;
+	  padding-bottom:0px;
+	  color:#07e5cd;
+	  font-family:charllight;
+	   overflow: visible;
+    }
+	
+  #enter{display:block;}
+  
+  #video{width:100%; }
+  video{width:100%; margin-top:-70px;}
+  
+  #gallery{margin:auto;}
+  #resize{width:100%; margin:auto;}
+  
+ #content{padding-left:0px;}
+}
+
+@media only screen and (max-width : 650px) and (min-width : 481px) {
+ html, body{margin:0 auto; padding:0; background:#300067 ; background-size:cover;  overflow-x:hidden; }
+	 #banner{background:url('girlblueright.png')right; background-size:cover; width:100%; height:100%; padding-bottom: 300px; display:inline-block; vertical-align:middle; position:relative; z-index:1;}
+     .headings{display:block; line-height:0.5px; color:#ffd87c; margin-left:50px; margin-top:250px; position:fixed;}
+#tr{font-family:cocolight; font-size:14pt; letter-spacing: 8px; mix-blend-mode:exclusion;  margin-left:140px; margin-top:300px; }
+#con{font-family:cocobold; font-size:5em; color:#DC143C; mix-blend-mode:exclusion; z-index:2; position:fixed;}
+ #hm{display:none;}
+ 
+ #banner2{background: linear-gradient(#7b052a,#ff005a); background-size:cover; width:100%; display:inline-block; padding-top:50px; 
+    vertical-align:middle; position:relative; z-index:1; text-align:center;}
+  #enter{display:block;}
+  #head3{font-family:charlblack; font-size:5em; }
+   #head4{font-family:charlblack; font-size:4em; }
+  
+  .box {
+      width: 100%;
+      color: #FFF;
+      position: relative;
+      float: left;
+	  overflow: visible;
+    }
+ 
+ .innerContent {
+      position: relative;
+	  padding-top:20px;
+      background: none;
+	  color:#07e5cd;
+	  font-family:charllight;
+	   overflow: visible;
+    }
+ 
+ .innerContent_A {
+      position: relative;
+      background: none;
+	  padding-left:30px;
+	  padding-right:30px;
+	  color:#07e5cd;
+	  font-family:charllight;
+	   overflow: visible;
+	  margin-top:-100px;
+    }
+
+
+  
+  #video{width:100%;}
+  video{width:100%; margin-top:-100px;}
+  
+  #content{padding-left:10px;}
+  
+}
+
+@media only screen and (max-width : 768px) and (min-width : 651px) {
+	 html, body{margin:0 auto; padding:0; background:#300067 ; background-size:cover;  overflow-x:hidden; }
+	 #banner{background:url('girlblueright.png')right; background-size:cover; width:100%; height:100%; padding-bottom: 300px; display:inline-block; vertical-align:middle; position:relative; z-index:1;}
+     .headings{display:block; line-height:0.5px; color:#ffd87c; margin-left:50px; margin-top:250px; position:fixed;}
+#tr{font-family:cocolight; font-size:14pt; letter-spacing: 8px; mix-blend-mode:exclusion;  margin-left:140px; margin-top:300px; }
+#con{font-family:cocobold; font-size:5em; color:#DC143C; mix-blend-mode:exclusion; z-index:2; position:fixed;}
+ #hm{display:none;}
+ 
+ #banner2{background: linear-gradient(#7b052a,#ff005a); background-size:cover; width:100%; display:inline-block; padding-top:50px; 
+    vertical-align:middle; position:relative; z-index:1; text-align:center;}
+	
+	#enter{display:block;}
+
+   .box {
+      width: 100%;
+      color: #FFF;
+      position: relative;
+      float: left;
+	  overflow: visible;
+    }
+ 
+ .innerContent {
+      position: relative;
+	  padding-top:20px;
+      background: none;
+	  color:#07e5cd;
+	  font-family:charllight;
+	   overflow: visible;
+    }
+ 
+ .innerContent_A {
+      position: relative;
+      background: none;
+	  padding-left:30px;
+	  padding-right:30px;
+	  color:#07e5cd;
+	  font-family:charllight;
+	   overflow: visible;
+	  margin-top:-100px;
+    }
+
+	
+	 video{width:100%; margin-top:-150px;}
+	 
+	 #content{padding-left:70px;}
+   
+}
+
+ @media only screen and (max-width : 899px) and (min-width : 769px) {
+	 html, body{margin:0 auto; padding:0; background:#300067 ; background-size:cover;  overflow-x:hidden; }
+	 #banner{background:url('girlblueright.png')right; background-size:cover; width:100%; height:100%; padding-bottom: 300px; display:inline-block; vertical-align:middle; position:relative; z-index:1;}
+     .headings{display:block; line-height:0.5px; color:#ffd87c; margin-left:100px; margin-top:250px; position:fixed;}
+#tr{font-family:cocolight; font-size:14pt; letter-spacing: 8px; mix-blend-mode:exclusion;  margin-left:285px; margin-top:300px; }
+#con{font-family:cocobold; font-size:7em; color:#DC143C; mix-blend-mode:exclusion; z-index:2; position:fixed;}
+#hm{display:none;}
+ 
+ #banner2{background: linear-gradient(#7b052a,#ff005a); background-size:cover; width:100%; display:inline-block; padding-top:50px; 
+    vertical-align:middle; position:relative; z-index:1; text-align:center;}
+	
+	#enter{display:block;}
+	
+	  .box {
+      width: 100%;
+      color: #FFF;
+      position: relative;
+      float: left;
+	  overflow: visible;
+    }
+ 
+ .innerContent {
+      position: relative;
+	  padding-top:20px;
+      background: none;
+	  color:#07e5cd;
+	  font-family:charllight;
+	   overflow: visible;
+    }
+ 
+ .innerContent_A {
+      position: relative;
+      background: none;
+	  padding-left:30px;
+	  padding-right:30px;
+	  color:#07e5cd;
+	  font-family:charllight;
+	   overflow: visible;
+	  margin-top:-100px;
+    }
+
+	
+	 video{width:100%; margin-top:-200px;}
+   
+   #content{padding-left:110px; }
+   
+ }
+
+@media screen and (max-width : 1050px) and (min-width : 900px) {
+	
+ #hm{display:none;} #enter{display:block;}
+ 
+ 
+ .box {
+      width: 50%;
+      padding-bottom: 100px;
+   }
+   
+ #web2, #web3{width:100%; margin-top:50px;}
+ 
+   .innerContent {
+      position: relative;
+	  padding-top:20px;
+      background: none;
+	  color:#07e5cd;
+	  font-family:charllight;
+	   overflow: visible;
+    }
+   
+   #content{padding-left:130px;}
+ 
+}
+
+ @media only screen and (max-width : 1290px) and (min-width : 1051px) {
+	
+  #hm{display:none;}
+  #enter{display:none;}
+  
+   .box {
+      width: 50%;
+      padding-bottom: 50%;
+   }
+   
+
+   video{width:100%;}
+   
+ 
+ }
+
+	
+
+@media only screen and (min-width : 1400px) {
+
+ #hm{display:none;}
+
+#enter{display:none;}
+
+}
+

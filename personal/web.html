@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<title>TRfolio | Tonirose L. | Work</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<script src="js/ccordion-menu.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<link rel="stylesheet" href="css/layout2.css">
+<link rel="stylesheet" href="css/web.css">
+<link rel="stylesheet" href="css/gallery.css">
+
+<style type="text/css">
+    #wrap2 {
+      overflow: hidden;
+	  position: relative;
+    }
+    .box2 {
+      width: 50%;
+      padding-bottom: 50%;
+      color: #FFF;
+      position: relative;
+      float: left;
+    }
+	
+	.innerContent2:hover{background:none; border-radius:500px; transition: 0.25s ease-in-out; border: 3px solid white; mix-blend-mode:difference;}
+	.innerContent2:active{ background:none; border-radius:500px; transition: 0.25s ease-in-out;  box-shadow: 0px 0px 50px white;}
+	
+    .innerContent2 {
+      position: absolute;
+      left: 1px;
+      right: 1px;
+      top: 1px;
+      bottom: 1px;
+      background: none;
+      padding:50px;
+    }
+	
+	@media only screen and (max-width : 480px) {
+   /* Smartphone view: 1 tile */
+   .box2 {
+      width: 100%;
+      padding-bottom: 100%;
+	  margin: auto;
+   }
+}
+@media only screen and (max-width : 650px) and (min-width : 481px) {
+   /* Tablet view: 2 tiles */
+   .box2 {
+      width: 100%;
+      padding-bottom: 100%;
+   }
+}
+@media only screen and (max-width : 1050px) and (min-width : 651px) {
+   /* Small desktop / ipad view: 3 tiles */
+   .box2 {
+      width: 50%;
+      padding-bottom: 50%;
+   }
+}
+@media only screen and (max-width : 1290px) and (min-width : 1051px) {
+   /* Medium desktop: 4 tiles */
+   .box2 {
+      width: 50%;
+      padding-bottom: 50%;
+   }
+}
+  </style>
+
+</head>
+
+
+<body>
+<div class="container">
+
+<div id="sidenav" class="controlall"><br><br>
+<a href="index.html" ><img id="lui" src="img/lui.png"></a><br>
+<a href="web.html"><img id="img2" src="img/web.png"></a><br>
+<a href="dgi.html"><img id="img2" src="img/dgi.png"></a><br>
+<a href="../index.html"><img id="img2" src="img/work.png"></a><br>
+<a href="https://tonie94.deviantart.com/"><img id="img2" src="img/deviantart.png"></a><br>
+<a href="https://www.behance.net/snsfbtoni077b"><img id="img2" src="img/behance.png"></a>
+
+</div>
+
+<div id="sidenav2" class="controlall">
+<ul>
+<a href="#" ><li>Home</li></a>
+<a href="#" ><li>Web</li></a>
+<a href="#" ><li>Digital</li></a>
+<a href="#" ><li>Work Section</li></a>
+<a href="#" ><li>DeviantArt</li></a>
+<a href="#" ><li>Behance</li></a>
+</ul>
+</div>
+
+
+
+<script>
+	$(window).scroll(function () {
+
+    /* Check the location of each desired element */
+    $('.fadeInBlock').each(function (i) {
+
+        var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+        var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+        /* If the object is completely visible in the window, fade it it */
+        if (bottom_of_window > bottom_of_object) {
+
+            $(this).animate({
+                'opacity': '1'
+            }, 500);
+
+         }
+     });
+});
+	</script>
+
+<div id="sidecontent" class="controlall animated fadeIn">
+<div class="content animated fadeIn">
+
+<label  for="modal-1">
+<div class="toogle-menu" id="myBtn">
+<div class="icon"></div>
+<div class="icon"></div>
+<div class="icon"></div>
+</div></label>
+
+	
+	
+<input class="modal-state" id="modal-1" type="checkbox" />
+<div class="modal">
+<div class="contnt">
+<div class="menubox">
+<label class="modal__close" for="modal-1"></label>
+ <div id="mobinav">
+ <a href="index.html"><img id='logo'src="img/trfoliologo_fuschia.png"></a><br>
+ <a href="web.html"><button class="menumobile"><img src="img/web2.png"><br>Web</button></a>
+ &nbsp;&nbsp;
+<a href="dgi.html"><button class="menumobile"><img src="img/dgi2.png"><br><span>Digital</span></button></a>
+ &nbsp;
+ <a href="../index.html"><button class="menumobile"><img src="img/work2.png"><br><span>Work</span></button></a>
+ &nbsp;
+ <a href="https://tonie94.deviantart.com/"><button class="menumobile"><img src="img/deviantart2.png"><br><span>DeviantArt</span></button></a>
+ <a href="https://www.behance.net/snsfbtoni077b"><button class="menumobile"><img src="img/behance2.png"><br><span>Behance</span></button></a><br>
+ 
+</div>
+</div>
+</div>
+</div>
+
+<div id="headernxt">
+<h1 class="controlh">Web</h1>&nbsp; &nbsp;<br id="enter"><h2 class="controlh">Sample Template</h2></div>
+<div class="section group">
+	<div class="col span_1_of_2">
+	<img src="img/bjp.png" style="width:100%;">
+	<h2>Full-width page layout</h2>
+	<a href="src_random/web/sampletemp/bjp/index.html" target="_blank"><button class="pbutton">Live Demo</button></a>
+	</div>
+	<div class="col span_1_of_2">
+	<img src="img/bnb.png" style="width:100%;">
+	<h2>One-Page Layout, Product Order Request (direct to Email)</h2>
+	<a href="src_random/web/sampletemp/bnb/index2.html" target="_blank"><button class="pbutton">Live Demo</button></a>
+	</div>
+</div>
+
+<div class="section group">
+	<div class="col span_1_of_2">
+	<img src="img/cg.png" style="width:100%;">
+	<h2>Hobby Craft Online Selling Theme</h2>
+	<a href="src_random/web/sampletemp/covergee/index.html" target="_blank"><button class="pbutton">Live Demo</button></a>
+	</div>
+	<div class="col span_1_of_2">
+	
+	</div>
+</div>
+
+<br><br><br>
+
+<p id="p">Disclaimer/Note: These sample templates are non-work related projects. Names of fake companies
+were just thought by coincidence if something exists with the same name.
+Stock Photos used in some templates were came from Raydar and Offset (by Shutterstock).
+You can go to their respective sites to buy Premium Stock Photos or use their
+free stock photos (under a Common Creative (CC) License) to your site content needs.</p>
+<br><br><br><br><br>
+  </div>
+  
+  
+</div>
+
+  
+
+ 
+ 
+
+
+
+</div>
+
+
+
+
+
+</div>
+</body>
+</html>

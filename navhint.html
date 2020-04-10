@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<title>TRfolio | Tonirose L.</title>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="css/animate.css">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<script src="js/ccordion-menu.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<link rel="stylesheet" href="css/layout1.css">
+<link rel="stylesheet" href="css/trhome.css">
+<link rel="stylesheet" href="css/gallery.css">
+
+</head>
+
+
+<body>
+<div class="container">
+
+<div id="sidenav" class="controlall"><br><br>
+<a href="index.html" ><img id="lui" src="img/lui.png"></a><br>
+<a href="work.html"><img id="img2" src="img/work.png"></a><br>
+<a href="about.html"><img id="img2" src="img/about.png"></a><br>
+<a href="contact.html"><img id="img2" src="img/contact.png"></a><br>
+<a href="personal/index.html"><img id="img2" src="img/personal.png"></a><br>
+<a href="https://tonie94.deviantart.com/"><img id="img2" src="img/deviantart.png"></a><br>
+<a href="https://www.behance.net/snsfbtoni077b"><img id="img2" src="img/behance.png"></a>
+
+</div>
+
+<div id="sidenav2" class="controlall">
+<ul>
+<a href="index.html" ><li>Home</li></a>
+<a href="work.html" ><li>Work</li></a>
+<a href="#" ><li>About</li></a>
+<a href="#" ><li>Contact</li></a>
+<a href="#" ><li>Random</li></a>
+<a href="#" ><li>DeviantArt</li></a>
+<a href="#" ><li>Behance</li></a>
+</ul>
+</div>
+
+
+
+<script>
+	$(window).scroll(function () {
+
+    /* Check the location of each desired element */
+    $('.fadeInBlock').each(function (i) {
+
+        var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+        var bottom_of_window = $(window).scrollTop() + $(window).height();
+
+        /* If the object is completely visible in the window, fade it it */
+        if (bottom_of_window > bottom_of_object) {
+
+            $(this).animate({
+                'opacity': '1'
+            }, 500);
+
+         }
+     });
+});
+	</script>
+
+<div id="sidecontentb" class="controlall animated fadeIn">
+
+<label  for="modal-1">
+<div class="toogle-menu" id="myBtn">
+<div class="icon"></div>
+<div class="icon"></div>
+<div class="icon"></div>
+</div></label>
+
+	
+	
+<input class="modal-state" id="modal-1" type="checkbox" />
+<div class="modal">
+<div class="contnt">
+<div class="menubox">
+<label class="modal__close" for="modal-1"></label>
+ <div id="mobinav">
+ <a href="index.html"><img id='logo'src="img/trfoliologo_fuschia.png"></a><br>
+ <a href="work.html"><button class="menumobile"  onclick="location.href='work.html'"><img src="img/work2.png"><br>Work</button></a>
+ &nbsp;&nbsp;
+<a href="about.html"><button class="menumobile"><img src="img/about2.png"><br><span>About</span></button></a>
+ &nbsp;
+ <a href="contact.html"><button class="menumobile"><img src="img/contact2.png"><br><span>Contact</span></button></a>
+ &nbsp;
+ <a href="personal/index.html"><button class="menumobile"><img src="img/personal2.png"><br><span>Random</span></button></a>
+ 
+ <a href="https://tonie94.deviantart.com/"><button class="menumobile"><img src="img/deviantart2.png"><br><span>DeviantArt</span></button></a>
+ <a href="https://www.behance.net/snsfbtoni077b"><button class="menumobile"><img src="img/behance2.png"><br><span>Behance</span></button></a><br>
+ 
+</div>
+</div>
+</div>
+</div>
+
+
+
+<div class="fadeInBlock" ><img id="lui2"  src="img/bg2tb.png" ><br id="enter"><br id="enter"><br id="enter"><img id="lui3"  src="img/tonetie2.png" ><br id="enter"</div>
+<br><br>
+
+<div style="text-align:center; width:100%; padding-bottom:30px;"><h4><a href="https://trportfolio.000webhostapp.com/">See another version of this site</a> | <a href="navhint.html"><b>Navigation Hints</b></a></h4></div>
+
+<br><br>
+<div id="con">
+<div id="txt2"><h2>Where to Go?:</h2><p style="font-style:italic;">If you accidentally click the pencil at startup popup w/out reading... (sorry if this seems redundant for you..peace)</p><br><br><p align="left"><img id='imgspc' src="img/work2.png" align="left">The Main Site (You're here!): this showcase as my work-related portfolio which ranges from print (graphics & illustration) to web from a number of clients and previous employment. Click this Pencil to go to 'Work' Section.</p> 
+<br><br>
+<p align="left"><img id='imgspc' src="img/web2.png" align="left">Web Section: Still under construction. A Quickpage to see all web-related portfolio (which can also be seen here and at "Random" site) gathered for web category only whether it is work related or just a sample template. Click this PC icon to go here.</p> 
+<br><br>
+<p align="left"><img id='imgspc' src="img/personal2.png" align="left">Random (Personal): Still under construction...but soon it will be filled with my random made artwork (illustrations & graphics/photo manipulation stuff) and my sample templates will reflect here also since its really a part of this site since all of these works are non-work or no client involved...just for fun improve my drawing skills and find my own style or develop other styles. What you will see here will be also uploaded on DeviantArt & Behance (in case there will be problems in accessing this site). I consider this my freedom wall. Just click the Shuffle icon at startup or at the sidebar to go here. </p> 
+<br><br>
+<p align="left"><img id='imgspc' src="img/work2.png" align="left"><h2>Work Section Categories</h2>
+Previous - Past project/works from my previous employers/job or in-house works.<br><br>
+Freelance - Projects/Works which are paid or unpaid but credited (since some clients came from churches, they can pay if their willing or not). Also called Outside (client) Works. Freelance Web projects are paid or unpaid (but credited) client-based projects which will have its own separate page and treated as one project but still falls under the freelance category.<br><br>
+Others/Published - Random or Mixed Works contain sample works which are published, discontinued work, gained notice everywhere. Redesigns of this site will fall here.<br><br><br>
+
+"Quick Links" below is a sitemap or specific links categorized by SKILL leading you to my works on both Main and Personal Sites.
+</p>
+
+
+
+</div>
+
+
+</div>
+  <br><br><br>
+</div>
+
+  
+
+
+ 
+
+
+
+</div>
+
+
+<div class="accord">
+ 
+   <button class="accordion">Quick Links <i class="down"></i></button>
+			<div class="panel" tabindex="0">
+			<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+			
+   <div id="text">
+   		 <div id="wrap">
+		 <img id='logo'src="img/trfoliologo_fuschia.png"><br>
+    <div class="box">
+      <div class="innerContent">
+      <b>Web</b><br>
+	  Work | <a href="work/folio1.html#web">Zion's Praise Music Inc.</a><br>
+	  Others | <a href="work/others.html#web">tr.folio old design/redesign</a><br>
+	  Random | <a href="personal/web.html">Sample templates/mockups 
+	  
+	   
+	   </div>
+    </div>
+    <div class="box">
+      <div class="innerContent">
+      <b> Graphics</b><br>
+	  Work | <a href="work/folio1.html#print">Zion's Praise Music Inc.</a><br>
+	  Work | <a href="work/folio2.html">EGG Design Inc.</a><br>
+	  Work | <a href="work/freelance.html">Freelance</a><br>
+	  Random | <a href="personal/dgi.html">Graphics/Photoshop</a>
+      </div>
+    </div>
+    <div class="box">
+      <div class="innerContent">
+      <b>Illustration</b><br>
+	  Work | <a href="work/folio1.html#print">Zion's Praise Music Inc.</a><br>
+	  Work | <a href="work/folio2.html">EGG Design Inc.</a><br>
+	  Work | <a href="work/freelance.html">Freelance</a><br>
+	  Random | <a href="personal/dgi.html">Illustration/Digital Art</a>
+	  
+      </div>
+    </div>
+    <div class="box">
+      <div class="innerContent">
+      <b>Latest Work/Random</b><br>
+	  <a href="https://www.behance.net/snsfbtoni077b">Behance</a><br>
+	  <a href="https://tonie94.deviantart.com/">DeviantArt</a><br>
+	   
+      </div>
+    </div>
+	
+  </div>
+   </div>
+
+			</div>
+
+ <script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        this.classList.toggle("active");
+        this.nextElementSibling.classList.toggle("show");
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,893 @@
+img { max-width: 100%; max-height:100%;}
+   #pic0{background:url('c.png'); background-size:cover;}
+   #pic0:hover{background:url('chover.png');  background-size:cover;
+   }
+    #pic1{background:url('j.png');  background-size:cover;}
+   #pic1:hover{background:url('jhover.png');  background-size:cover;  
+    }
+    #pic2{background:url('s.png');  background-size:cover;}
+   #pic2:hover{background:url('shover.png');  background-size:cover; 
+   }
+    #pic3{background:url('t.png');  background-size:cover;}
+   #pic3:hover{background:url('thover.png');   background-size:cover;
+   }
+    #pic4{background:url('v.png');  background-size:cover;}
+   #pic4:hover{background:url('vhover.png');  background-size:cover;
+   }
+    #pic5{background:url('eg.png');  background-size:cover;}
+   #pic5:hover{background:url('eghover.png');  background-size:cover;
+   }
+   #pic6{background:url('ewd.png');  background-size:cover;}
+   #pic6:hover{background:url('ewdhover.png');  background-size:cover;
+   }
+    #pic7{background:url('ay.png');  background-size:cover;} 
+   }
+
+
+  #1{background:url('cheeseanything/badges.png');}
+    #2{background:url('cheeseanything/badges2.png');}
+    #3{background:url('cheeseanything/badges3.png');}
+    #4{background:url('cheeseanything/badges4.png');}
+    #5{background:url('cheeseanything/badges5.png');}
+  #6{background:url('cheeseanything/recipe1.png');}
+    #7{background:url('cheeseanything/recipe2.png');}
+    #8{background:url('cheeseanything/recipe3.png');}
+    #9{background:url('cheeseanything/home.png');}
+    #10{background:url('cheeseanything/ca_badges.png');}
+
+    .innerContent {
+      position: absolute;
+      left: 1px;
+      right: 1px;
+      top: 1px;
+      bottom: 1px;
+      padding: 10px;
+    font-size:12pt;
+    font-family: josefin, Verdana, Arial, sans-serif;
+    color:#5f5669;
+     text-align:center;
+    }
+/*-----------------------------------------------------------------------------*/
+    @media only screen and (max-width : 480px) {
+      /* Smartphone view: 1 tile */
+  body{
+    margin: 0;
+    padding: 0;
+     background: url('f3.jpg') repeat center;
+ 
+     }
+
+  #front {position: absolute;}
+ #links{margin-left:370px; margin-top: -85px; z-index:1;}
+     #wrap {
+      overflow: hidden;
+      margin-top:0px;
+      margin-left:0px;
+    }
+      .box {
+        width: 45%;
+        padding-bottom: 46%;
+         margin-left:12px;
+     color: #FFF;
+      position: relative;
+      float: left;
+-moz-animation: fadeInDown .3s ease-in ;
+-webkit-animation: fadeInDown .3s ease-in ;
+  animation:fadeInDown .3s ease-in ;
+      }
+
+#lnk2{margin-left:100px; padding-left:100px;}
+#lnks{display:none;}
+
+#logo{margin-left:0px; margin-top:80px;  height:70%;
+-moz-animation: fadeInUp .3s ease-in  ;
+    -webkit-animation: fadeInUp .3s ease-in ;
+    animation:fadeInUp .3s ease-in ;
+}
+
+#logo2{display:none;}
+
+#menu{width:30px; height:30px;}
+ #nav{position: fixed; margin-left:-130px; margin-top:90px; background:#E8E8E8; width:30px;}
+#icon{width:30px; height:10px;}
+#icon2{display:none;}
+#icon3{width:25px; height:17px;}
+#icon4{width:25px; height:19px;}
+
+ #nav0{margin-left:5px;}
+ #nav2{display:none;}
+ #nav3{margin-left:40px;}
+ #nav4{margin-left:75px;}
+
+  #about {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+     margin-top:0px;
+     margin-left:0px, auto;
+     background:url('luii - Copy.png')  no-repeat bottom ; 
+     overflow:hidden
+   }
+
+  #ab{display:none;}
+
+#folio1 {
+    position: absolute;
+    height:150%;
+    width: 100%;
+     margin-top:0px;
+     margin-left:0px, auto;
+     
+}
+
+#folioextra {
+    position: absolute;
+    height:60%;
+    width: 100%;
+     margin-top:0px;
+     margin-left:0px, auto;
+-moz-animation: fadeInDown .3s ease-in ;
+-webkit-animation: fadeInDown .3s ease-in ;
+  animation:fadeInDown .3s ease-in ;
+}
+
+#images{
+width: 250px;
+margin-left:34px;
+margin-top:90px;
+-moz-animation: fadeInDown .3s ease-in ;
+-webkit-animation: fadeInDown .3s ease-in ;
+  animation:fadeInDown .3s ease-in ;
+}
+
+#images2{
+width:250px;
+height:5px;
+margin-left:34px;
+margin-top:20px;
+color:white;
+font-weight:600;
+font-family: josefin, Verdana, Arial, sans-serif;
+font-size:12pt;
+}
+
+
+#images2 a{
+text-decoration:none;
+color:white;
+font-family: josefin, Verdana, Arial, sans-serif;
+font-size:12pt;
+font-weight:600;
+-moz-animation: fadeInDown .3s ease-in ;
+-webkit-animation: fadeInDown .3s ease-in ;
+  animation:fadeInDown .3s ease-in ;
+}
+
+#content{
+text-align:center;
+width: 250px;
+height:400px;
+margin-left:34px;
+margin-top:20px;
+font-family: josefin, Verdana, Arial, sans-serif;
+font-size:12pt;
+font-weight:600;
+color:white;
+-moz-animation: fadeInDown .3s ease-in ;
+-webkit-animation: fadeInDown .3s ease-in ;
+  animation:fadeInDown .3s ease-in ;
+}
+
+#content a{
+text-decoration:none;
+color:white;
+-moz-animation: fadeInDown .3s ease-in ;
+-webkit-animation: fadeInDown .3s ease-in ;
+  animation:fadeInDown .3s ease-in ;
+}
+
+}
+/*-------------------------------------------------------------------------------*/
+    @media only screen and (max-width : 650px) and (min-width : 481px) {
+      /* Tablet view: 2 tiles */
+  .box {
+        width: 11%;
+        padding-bottom: 11%;
+            color: #FFF;
+      position: relative;
+      float: left;
+      margin-right:5px;
+-moz-animation: fadeInDown .3s ease-in ;
+-webkit-animation: fadeInDown .3s ease-in ;
+  animation:fadeInDown .3s ease-in ;
+      }
+
+    body{
+    margin: 0;
+    padding: 0;
+    font-family: MyCustomFont, Verdana, Arial, sans-serif;
+     font-size: 72pt;
+    color: #339999;
+    background: url('feather3_2.jpg') repeat center;
+    zoom:71%;
+    }
+
+#front {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+     margin-top:0px;
+     margin-left:0px, auto;
+
+}
+
+#links{margin-left:950px; margin-top:-85px;
+-moz-animation: fadeInDown .3s ease-in ;
+-webkit-animation: fadeInDown .3s ease-in ;
+  animation:fadeInDown .3s ease-in ;
+
+}
+
+#lnks{margin-left:1050px; margin-top:30px;
+-moz-animation: fadeInDown .3s ease-in ;
+-webkit-animation: fadeInDown .3s ease-in ;
+  animation:fadeInDown .3s ease-in ;
+}
+#lnk2{display:none;}
+
+#logo2{margin-left:450px; margin-top:-80px;
+-moz-animation: fadeInUp .3s ease-in  ;
+    -webkit-animation: fadeInUp .3s ease-in ;
+    animation:fadeInUp .3s ease-in ;
+}
+
+#logo{display:none;}
+
+#lui{margin-left:330px; margin-top:625px;}
+
+#luii{padding-top:50px;}
+
+#nav{ position: fixed; margin-left:-20px; margin-top:100px;}
+#nav2{margin-left:200px;}
+#nav3{margin-left:280px;}
+#nav4{margin-left:360px;}
+
+ #wrap {
+      overflow: hidden;
+      margin-top:0px;
+      margin-left:120px;
+    }
+
+
+     #about {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+     margin-top:0px;
+     margin-left:0px, auto; 
+     overflow:hidden
+ background: url('lu.png') bottom;
+   }
+
+     #ab{margin-top:-350px;
+     -moz-animation: fadeInUp .3s ease-in  ;
+    -webkit-animation: fadeInUp .3s ease-in ;
+    animation:fadeInUp .3s ease-in ;
+      }
+      #mab{display:none;}
+
+    #folio1 {
+    position: absolute;
+    height:150%;
+    width: 100%;
+     margin-top:0px;
+     margin-left:0px;
+    
+}
+
+#folioextra {
+    position: absolute;
+    height:60%;
+    width: 100%;
+     margin-top:0px;
+     margin-left:0px, auto;
+   
+-moz-animation: fadeInDown .3s ease-in ;
+-webkit-animation: fadeInDown .3s ease-in ;
+  animation:fadeInDown .3s ease-in ;
+}
+
+#images{
+width: 400px;
+height:400px;
+margin-left:300px;
+margin-top:-40px;
+-moz-animation: fadeInDown .3s ease-in ;
+-webkit-animation: fadeInDown .3s ease-in ;
+  animation:fadeInDown .3s ease-in ;
+}
+
+#images2{
+width:1000px;
+height:5px;
+margin-left:200px;
+margin-top:10px;
+color:white;
+font-weight:600;
+font-family: josefin, Verdana, Arial, sans-serif;
+font-size:12pt;
+}
+
+
+
+#images2 a{
+text-decoration:none;
+color:white;
+font-family: josefin, Verdana, Arial, sans-serif;
+font-size:12pt;
+font-weight:600;
+-moz-animation: fadeInDown .3s ease-in ;
+-webkit-animation: fadeInDown .3s ease-in ;
+  animation:fadeInDown .3s ease-in ;
+}
+
+#content{
+align:center;
+width: 400px;
+height:400px;
+margin-left:750px;
+margin-top:-390px;
+font-family: josefin, Verdana, Arial, sans-serif;
+font-size:12pt;
+font-weight:600;
+color:white;
+-moz-animation: fadeInDown .3s ease-in ;
+-webkit-animation: fadeInDown .3s ease-in ;
+  animation:fadeInDown .3s ease-in ;
+}
+
+#content a{
+text-decoration:none;
+color:white;
+-moz-animation: fadeInDown .3s ease-in ;
+-webkit-animation: fadeInDown .3s ease-in ;
+  animation:fadeInDown .3s ease-in ;
+}
+
+}
+
+/*-----------------------------------------------------------------------------------*/
+    @media only screen and (max-width : 1050px) and (min-width : 651px) {
+      /* Small desktop / ipad view: 3 tiles */
+  .box {
+        width: 11%;
+        padding-bottom: 11%;
+            color: #FFF;
+      position: relative;
+      float: left;
+      margin-right:5px;
+-moz-animation: fadeInDown .3s ease-in ;
+-webkit-animation: fadeInDown .3s ease-in ;
+  animation:fadeInDown .3s ease-in ;
+      }
+
+    body{
+    margin: 0;
+    padding: 0;
+    font-family: MyCustomFont, Verdana, Arial, sans-serif;
+     font-size: 72pt;
+    color: #339999;
+    background: url('feather3_2.jpg') repeat center;
+    zoom:71%;
+    }
+
+#front {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+     margin-top:0px;
+     margin-left:0px, auto;
+
+}
+
+#links{margin-left:950px; margin-top:-85px;
+-moz-animation: fadeInDown .3s ease-in ;
+-webkit-animation: fadeInDown .3s ease-in ;
+  animation:fadeInDown .3s ease-in ;
+
+}
+
+#lnks{margin-left:1050px; margin-top:30px;
+-moz-animation: fadeInDown .3s ease-in ;
+-webkit-animation: fadeInDown .3s ease-in ;
+  animation:fadeInDown .3s ease-in ;
+}
+#lnk2{display:none;}
+
+#logo2{margin-left:450px; margin-top:-80px;
+-moz-animation: fadeInUp .3s ease-in  ;
+    -webkit-animation: fadeInUp .3s ease-in ;
+    animation:fadeInUp .3s ease-in ;
+}
+
+#logo{display:none;}
+
+#lui{margin-left:330px; margin-top:625px;}
+
+#luii{padding-top:50px;}
+
+#nav{ position: fixed; margin-left:-20px; margin-top:100px;}
+#nav2{margin-left:200px;}
+#nav3{margin-left:280px;}
+#nav4{margin-left:360px;}
+
+ #wrap {
+      overflow: hidden;
+      margin-top:0px;
+      margin-left:120px;
+    }
+
+
+     #about {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+     margin-top:0px;
+     margin-left:0px, auto; 
+     overflow:hidden
+ background: url('lu.png') bottom;
+   }
+
+     #ab{margin-top:-350px;
+     -moz-animation: fadeInUp .3s ease-in  ;
+    -webkit-animation: fadeInUp .3s ease-in ;
+    animation:fadeInUp .3s ease-in ;
+      }
+      #mab{display:none;}
+
+    #folio1 {
+    position: absolute;
+    height:150%;
+    width: 100%;
+     margin-top:0px;
+     margin-left:0px;
+    
+}
+
+#folioextra {
+    position: absolute;
+    height:60%;
+    width: 100%;
+     margin-top:0px;
+     margin-left:0px, auto;
+   
+-moz-animation: fadeInDown .3s ease-in ;
+-webkit-animation: fadeInDown .3s ease-in ;
+  animation:fadeInDown .3s ease-in ;
+}
+
+#images{
+width: 400px;
+height:400px;
+margin-left:300px;
+margin-top:-40px;
+-moz-animation: fadeInDown .3s ease-in ;
+-webkit-animation: fadeInDown .3s ease-in ;
+  animation:fadeInDown .3s ease-in ;
+}
+
+#images2{
+width:1000px;
+height:5px;
+margin-left:200px;
+margin-top:10px;
+color:white;
+font-weight:600;
+font-family: josefin, Verdana, Arial, sans-serif;
+font-size:12pt;
+}
+
+
+
+#images2 a{
+text-decoration:none;
+color:white;
+font-family: josefin, Verdana, Arial, sans-serif;
+font-size:12pt;
+font-weight:600;
+-moz-animation: fadeInDown .3s ease-in ;
+-webkit-animation: fadeInDown .3s ease-in ;
+  animation:fadeInDown .3s ease-in ;
+}
+
+#content{
+align:center;
+width: 400px;
+height:400px;
+margin-left:750px;
+margin-top:-390px;
+font-family: josefin, Verdana, Arial, sans-serif;
+font-size:12pt;
+font-weight:600;
+color:white;
+-moz-animation: fadeInDown .3s ease-in ;
+-webkit-animation: fadeInDown .3s ease-in ;
+  animation:fadeInDown .3s ease-in ;
+}
+
+#content a{
+text-decoration:none;
+color:white;
+-moz-animation: fadeInDown .3s ease-in ;
+-webkit-animation: fadeInDown .3s ease-in ;
+  animation:fadeInDown .3s ease-in ;
+}
+
+}
+
+/*----------------------------------------------------------------------------------*/
+    @media only screen and (max-width : 1290px) and (min-width : 1051px) {
+      /* Medium desktop: 4 tiles */
+  .box {
+        width: 11%;
+        padding-bottom: 11%;
+            color: #FFF;
+      position: relative;
+      float: left;
+      margin-right:5px;
+-moz-animation: fadeInDown .3s ease-in ;
+-webkit-animation: fadeInDown .3s ease-in ;
+  animation:fadeInDown .3s ease-in ;
+      }
+
+    body{
+    margin: 0;
+    padding: 0;
+    font-family: MyCustomFont, Verdana, Arial, sans-serif;
+     font-size: 72pt;
+    color: #339999;
+    background: url('feather3_2.jpg') repeat center;
+    zoom:90%;
+    }
+
+#front {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+     margin-top:0px;
+     margin-left:0px, auto;
+
+}
+
+#links{margin-left:950px; margin-top:-85px;
+-moz-animation: fadeInDown .3s ease-in ;
+-webkit-animation: fadeInDown .3s ease-in ;
+  animation:fadeInDown .3s ease-in ;
+
+}
+
+#lnks{margin-left:1050px; margin-top:30px;
+-moz-animation: fadeInDown .3s ease-in ;
+-webkit-animation: fadeInDown .3s ease-in ;
+  animation:fadeInDown .3s ease-in ;
+}
+#lnk2{display:none;}
+
+#logo2{margin-left:450px; margin-top:-80px;
+-moz-animation: fadeInUp .3s ease-in  ;
+    -webkit-animation: fadeInUp .3s ease-in ;
+    animation:fadeInUp .3s ease-in ;
+}
+
+#logo{display:none;}
+
+#lui{margin-left:330px; margin-top:625px;}
+
+#luii{padding-top:50px;}
+
+#nav{ position: fixed; margin-left:-20px; margin-top:100px;}
+#nav2{margin-left:200px;}
+#nav3{margin-left:280px;}
+#nav4{margin-left:360px;}
+
+ #wrap {
+      overflow: hidden;
+      margin-top:0px;
+      margin-left:120px;
+    }
+
+
+     #about {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+     margin-top:0px;
+     margin-left:0px, auto; 
+     overflow:hidden
+ background: url('lu.png') bottom;
+   }
+
+     #ab{margin-top:-350px;
+     -moz-animation: fadeInUp .3s ease-in  ;
+    -webkit-animation: fadeInUp .3s ease-in ;
+    animation:fadeInUp .3s ease-in ;
+      }
+      #mab{display:none;}
+
+    #folio1 {
+    position: absolute;
+    height:150%;
+    width: 100%;
+     margin-top:0px;
+     margin-left:0px;
+    
+}
+
+#folioextra {
+    position: absolute;
+    height:60%;
+    width: 100%;
+     margin-top:0px;
+     margin-left:0px, auto;
+   
+-moz-animation: fadeInDown .3s ease-in ;
+-webkit-animation: fadeInDown .3s ease-in ;
+  animation:fadeInDown .3s ease-in ;
+}
+
+#images{
+width: 400px;
+height:400px;
+margin-left:300px;
+margin-top:-40px;
+-moz-animation: fadeInDown .3s ease-in ;
+-webkit-animation: fadeInDown .3s ease-in ;
+  animation:fadeInDown .3s ease-in ;
+}
+
+#images2{
+width:1000px;
+height:5px;
+margin-left:200px;
+margin-top:10px;
+color:white;
+font-weight:600;
+font-family: josefin, Verdana, Arial, sans-serif;
+font-size:12pt;
+}
+
+
+
+#images2 a{
+text-decoration:none;
+color:white;
+font-family: josefin, Verdana, Arial, sans-serif;
+font-size:12pt;
+font-weight:600;
+-moz-animation: fadeInDown .3s ease-in ;
+-webkit-animation: fadeInDown .3s ease-in ;
+  animation:fadeInDown .3s ease-in ;
+}
+
+#content{
+align:center;
+width: 400px;
+height:400px;
+margin-left:750px;
+margin-top:-390px;
+font-family: josefin, Verdana, Arial, sans-serif;
+font-size:12pt;
+font-weight:600;
+color:white;
+-moz-animation: fadeInDown .3s ease-in ;
+-webkit-animation: fadeInDown .3s ease-in ;
+  animation:fadeInDown .3s ease-in ;
+}
+
+#content a{
+text-decoration:none;
+color:white;
+-moz-animation: fadeInDown .3s ease-in ;
+-webkit-animation: fadeInDown .3s ease-in ;
+  animation:fadeInDown .3s ease-in ;
+}
+
+}
+
+/*----------------------------------------------------------------------*/
+@media only screen and (min-width : 1291px) {
+
+  .box {
+        width: 11%;
+        padding-bottom: 11%;
+            color: #FFF;
+      position: relative;
+      float: left;
+      margin-right:5px;
+-moz-animation: fadeInDown .3s ease-in ;
+-webkit-animation: fadeInDown .3s ease-in ;
+  animation:fadeInDown .3s ease-in ;
+      }
+
+    body{
+    margin: 0;
+    padding: 0;
+    font-family: MyCustomFont, Verdana, Arial, sans-serif;
+     font-size: 72pt;
+    color: #339999;
+    background: url('feather3_2.jpg') repeat center;
+    zoom:100%;
+    }
+
+#front {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+     margin-top:0px;
+     margin-left:0px, auto;
+
+}
+
+#links{margin-left:950px; margin-top:-85px;
+-moz-animation: fadeInDown .3s ease-in ;
+-webkit-animation: fadeInDown .3s ease-in ;
+  animation:fadeInDown .3s ease-in ;
+
+}
+
+#lnks{margin-left:1050px; margin-top:30px;
+-moz-animation: fadeInDown .3s ease-in ;
+-webkit-animation: fadeInDown .3s ease-in ;
+  animation:fadeInDown .3s ease-in ;
+}
+#lnk2{display:none;}
+
+#logo2{margin-left:450px; margin-top:-80px;
+-moz-animation: fadeInUp .3s ease-in  ;
+    -webkit-animation: fadeInUp .3s ease-in ;
+    animation:fadeInUp .3s ease-in ;
+}
+
+#logo{display:none;}
+
+#lui{margin-left:330px; margin-top:625px;}
+
+#luii{padding-top:50px;}
+
+#nav{ position: fixed; margin-left:-20px; margin-top:100px;}
+#nav2{margin-left:200px;}
+#nav3{margin-left:280px;}
+#nav4{margin-left:360px;}
+
+ #wrap {
+      overflow: hidden;
+      margin-top:0px;
+      margin-left:120px;
+    }
+
+
+     #about {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+     margin-top:0px;
+     margin-left:0px, auto; 
+     overflow:hidden
+ background: url('lu.png') bottom;
+   }
+
+     #ab{margin-top:-350px;
+     -moz-animation: fadeInUp .3s ease-in  ;
+    -webkit-animation: fadeInUp .3s ease-in ;
+    animation:fadeInUp .3s ease-in ;
+      }
+      #mab{display:none;}
+
+    #folio1 {
+    position: absolute;
+    height:150%;
+    width: 100%;
+     margin-top:0px;
+     margin-left:0px;
+    
+}
+
+#folioextra {
+    position: absolute;
+    height:60%;
+    width: 100%;
+     margin-top:0px;
+     margin-left:0px, auto;
+   
+-moz-animation: fadeInDown .3s ease-in ;
+-webkit-animation: fadeInDown .3s ease-in ;
+  animation:fadeInDown .3s ease-in ;
+}
+
+#images{
+width: 400px;
+height:400px;
+margin-left:300px;
+margin-top:-40px;
+-moz-animation: fadeInDown .3s ease-in ;
+-webkit-animation: fadeInDown .3s ease-in ;
+  animation:fadeInDown .3s ease-in ;
+}
+
+#images2{
+width:1000px;
+height:5px;
+margin-left:200px;
+margin-top:10px;
+color:white;
+font-weight:600;
+font-family: josefin, Verdana, Arial, sans-serif;
+font-size:12pt;
+}
+
+
+
+#images2 a{
+text-decoration:none;
+color:white;
+font-family: josefin, Verdana, Arial, sans-serif;
+font-size:12pt;
+font-weight:600;
+-moz-animation: fadeInDown .3s ease-in ;
+-webkit-animation: fadeInDown .3s ease-in ;
+  animation:fadeInDown .3s ease-in ;
+}
+
+#content{
+align:center;
+width: 400px;
+height:400px;
+margin-left:750px;
+margin-top:-390px;
+font-family: josefin, Verdana, Arial, sans-serif;
+font-size:12pt;
+font-weight:600;
+color:white;
+-moz-animation: fadeInDown .3s ease-in ;
+-webkit-animation: fadeInDown .3s ease-in ;
+  animation:fadeInDown .3s ease-in ;
+}
+
+#content a{
+text-decoration:none;
+color:white;
+-moz-animation: fadeInDown .3s ease-in ;
+-webkit-animation: fadeInDown .3s ease-in ;
+  animation:fadeInDown .3s ease-in ;
+}
+
+}
+
+/*----------------------------------------------------------------------*/
+
+@font-face {
+ font-family: MyCustomFont;
+ src: url("JiyunoTsubasa.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: MyCustomFont;
+ src: url("JiyunoTsubasa.ttf") /* TTF file for CSS3 browsers */
+}
+
+@font-face {
+ font-family: josefin;
+ src: url("JosefinSans-SemiBold.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: josefin;
+ src: url("JosefinSans-SemiBold.ttf") /* TTF file for CSS3 browsers */
+}
+
+@font-face {
+ font-family: josefin;
+ src: url("JosefinSans-Regular.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: josefin;
+ src: url("JosefinSans-Regular.ttf") /* TTF file for CSS3 browsers */
+}
